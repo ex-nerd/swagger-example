@@ -178,7 +178,7 @@ module.exports = function(grunt) {
 
         var Sway = require('sway');
         var done = this.async();
-//process.chdir(o.dir);
+        //process.chdir(o.dir);
         //Sway.create({definition: o.input})
         Sway.create({definition: path.join(__dirname, o.dir, o.input)})
             .then(function (swaggerApi) {
