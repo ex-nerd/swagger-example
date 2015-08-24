@@ -41,7 +41,7 @@ grunt build
 If you wish to view live updates while you are editing, the following command will open the generated code in your browser and regenerate the HTML whenever you update the source:
 
 ```bash
-grunt watch
+grunt server
 ```
 
 When adding this repository to a CI server where you only want to test the Swagger without generating HTML, use:
