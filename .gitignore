@@ -1,0 +1,17 @@
+# OSX stuff
+.DS_Store
+
+# Node stuff
+node_modules
+api-console
+npm-debug.log
+
+# IDE stuff
+*.sublime-workspace
+
+# Our generated HTML files
+site
+
+# Swagger stuff
+swagger-ui
+swagger-editor
